@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>erl_clf_cbf_controller</name>
+  <version>0.0.0</version>
+  <description>The clf_cbf_controller package for kinematic model of Jackal</description>
+
+  <maintainer email="yiyi@ucsd.edu">hw</maintainer>
+  <license>BSD</license>
+
+  <depend>rospy</depend>
+  <depend>ros_numpy</depend>
+  <depend>ref_gvn_lite</depend>
+
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+  <build_depend>std_msgs</build_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+</package>
